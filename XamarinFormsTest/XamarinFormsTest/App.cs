@@ -12,6 +12,7 @@ namespace XamarinFormsTest
 		public App()
 		{
 			// The root page of your application
+			/*
 			MainPage = new ContentPage
 			{
 				Content = new StackLayout
@@ -25,6 +26,9 @@ namespace XamarinFormsTest
 					}
 				}
 			};
+			*/
+			MainPage = new Page1();
+
 		}
 
 		protected override void OnStart()
